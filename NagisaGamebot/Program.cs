@@ -23,7 +23,6 @@ namespace NagisaGamebot
             Console.ReadKey();
             botClient.StopReceiving();
         }
-
         private static async void Bot_OnMessage(object sender, MessageEventArgs e)
         {
 
